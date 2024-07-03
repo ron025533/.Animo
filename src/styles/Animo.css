@@ -1,0 +1,74 @@
+.Navigation {
+  font-family: MuseoModerno;
+  /* background-color: blueviolet; */
+  display: flex;
+  padding: 1.75rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #282828;
+  span {
+    color: #C7E36C;
+  }
+}
+
+.right-nav {
+  font-family: DMSans;
+  display: flex;
+  align-items: center;
+}
+
+.navigation-text {
+  display: flex;
+}
+
+.text {
+  color: #A4A4A4;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  width: 6rem;
+  font-weight: 400;
+  transition: all 0.1s ease-in-out;
+}
+
+.text:hover {
+  color: #282828;
+  font-weight: 600;
+}
+
+#selected {
+  color: #282828;
+  font-weight: 600;
+}
+
+.contact-button {
+  background-color: #282828;
+  color: #ffffff;
+  cursor: pointer;
+  width: 8rem;
+  height: 3rem;
+  border-radius: 100px;
+  margin-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  clip-path: inset(0 0 0 0);
+  font-weight: 200;
+  clip-path: inset(0 0 0 0);
+}
+
+.contact-text {
+  position: absolute;
+}
+
+#contact-two {
+  color: #C7E36C;
+  font-weight: 500;
+  margin-top: 8rem;
+}

@@ -1,0 +1,24 @@
+*,::before,::after {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-family: DMSans;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: 'MuseoModerno';
+  src: url(../public/fonts/MuseoModerno-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: 'DMSans';
+  src: url(../public/fonts/DMSans-VariableFont_opsz\,wght.ttf);
+}

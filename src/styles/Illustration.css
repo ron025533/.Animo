@@ -1,0 +1,115 @@
+.Illustration {
+    /* background-color: aquamarine; */
+    padding: 0 2rem;
+}
+
+.image-illustration {
+    /* background-color: blueviolet; */
+    background-image: url(../assets/BackGroundBlur.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    height: 33rem;
+    border-radius: 1.5rem;
+}
+
+.blurry {
+    /* background-color: chartreuse; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 42.188rem;
+    height: 29rem;
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+    backdrop-filter: blur(2rem);
+    padding: 2rem;
+}
+
+.image {
+    background-image: url(../assets/BackGroundBlur.png);
+    /* background-color: aqua; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 42.188rem;
+    height: 33rem;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+}
+
+.Illustration-text {
+    /* background-color: aquamarine; */
+    color: white;
+    font-size: 3.7rem;
+    font-weight: 600;
+}
+
+.Illustration-card {
+    background-color: #282828;
+    height: 12rem;
+    border-radius: 1.125rem;
+    padding: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.animals {
+    display: flex;
+    padding: 1rem 0 0 1rem;
+}
+
+.circle {
+    object-fit: cover;
+    position: absolute;
+    width: 3.8rem;
+    height: 3.8rem;
+    border-radius: 100px;
+    border: 0.3rem solid white;
+    img {
+        object-fit: cover;
+        width: 3.8rem;
+        height: 3.8rem;
+        border-radius: 100px;
+    }
+}
+
+#poney {
+    z-index: 3;
+}
+
+#inu {
+    z-index: 2;
+    margin-left: 3rem;
+}
+
+#ham {
+    z-index: 1;
+    margin-left: 6rem;
+}
+
+.arrow-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: #B28A5B;
+    border-radius: 100px;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.card-bottom {
+    padding: 1rem;
+    color: #ffffff;
+    font-weight: 200;
+    font-size: 1rem;
+    width: 18rem
+}
